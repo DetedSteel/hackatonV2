@@ -1,0 +1,17 @@
+{
+  "body": {
+    "type": "object",
+    "required": ["startTown", "finishTown", "date"],
+    "properties": {
+      "startTown": {
+        "type": "string"
+      },
+      "finishTown": {
+        "type": "string"
+      },
+      "date": {
+        "type": "string"
+      }
+    }
+  }
+}

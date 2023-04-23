@@ -1,0 +1,26 @@
+{
+  "body": {
+    "type": "object",
+    "required": [
+      "data"
+    ],
+    "properties": {
+      "data": {
+        "type": "object",
+        "required": [
+          "image"
+        ],
+        "properties": {
+          "image": "object",
+          "required": ["url"],
+          "properties": {
+            "url": {
+              "type": "string",
+              "minLength": 10
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "url": "mongodb://127.0.0.1:27017",
+  "db": "project-1",
+  "options": {
+    "useNewUrlParser": true,
+    "useUnifiedTopology": true
+  }
+}
